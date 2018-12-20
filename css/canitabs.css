@@ -209,7 +209,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL'; font-size: .8rem; }
     position: absolute;
     width: 100%;
     background: rgba(130, 212, 212, 0.86);
-    z-index: 9999;
+    z-index: 99999999;
 }
 #products-list-navbar > .card.card-body{
     background: transparent !important;
@@ -234,6 +234,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL'; font-size: .8rem; }
 #products-list-navbar > .card.card-body a:hover{
     color: #006699;
 }
+#products-list-navbar .nav-link {padding: 0 !important;}
 /*#navbar-principal .social-item a img{
     width: 
 }*/
