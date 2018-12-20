@@ -44,7 +44,7 @@
 	src: url('../fonts/HARABARA.eot');
     src: url('../fonts/HARABARA.eot?#iefix') format('embedded-opentype'),
          /*url('../fonts/Raleway-Black.woff') format('woff'),*/
-         url('../fonts/HARABARA.ttf') format('truetype'),
+         url('../fonts/HARABARA.otf') format('truetype'),
          url('../fonts/HARABARA.svg') format('svg');
     font-weight: normal;
     font-style: normal;
