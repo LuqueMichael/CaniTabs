@@ -426,9 +426,9 @@ section .description{ font-family: 'MENTONE-SEMIBOL'; font-size: .8rem; }
     /* float: left; */
     width: 57%;
     position: absolute;}
-#section_3 .item h6 {    font-size: .7rem;    width: 100%;}
+#section_3 .item h6 {    font-size: .7rem;    width: 100%;margin-left: 1.5rem;}
 #section_3 .box .item:last-child {
-    left: 8rem;
+    left: 9.5rem;
 }
 #section_3 .box .item img{ width: 150%; }
 #section_3 ul { font-family: 'MENTONE-SEMIBOL';
@@ -937,6 +937,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL'; font-size: .8rem; }
 	width: 100%;
 	margin-bottom: 3px
 }
+.footer .address a{ color: #868686; }
 .sprite_layout {
     background-image: url(https://www.agrovetmarket.com/images/ref/png/layout.png);
     background-color: transparent;
