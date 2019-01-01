@@ -521,7 +521,7 @@ width: 110%;}
 /*                      SECCION 4                      */
 /*******************************************************/
 #section_4 {
-    padding: 6rem 0 0rem 0;
+    padding: 6rem 0;
 }
 #section_4 img.dog {
     position: relative;
@@ -618,7 +618,7 @@ width: 110%;}
 /*                      SECCION 5                      */
 /*******************************************************/
 #section_5 {
-    padding: 7rem 0 1rem 0;
+    padding: 7rem 0 5rem 0;
 }
 #section_5 img.dog {
     position: absolute;
