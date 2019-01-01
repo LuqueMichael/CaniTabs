@@ -3,6 +3,10 @@ $(function () {
         $(this).addClass('active');
         $('#products-list-navbar').slideDown();
     });
+    $('#products-list-navbar').on('mouseover', function () {
+        $('#navbar-principal').find('.nav-link.product-list').removeClass('active');
+        $('#products-list-navbar').slideDown();
+    });
     $('#products-list-navbar').on('mouseleave', function () {
         $('#navbar-principal').find('.nav-link.product-list').removeClass('active');
         $('#products-list-navbar').slideUp();
