@@ -52,11 +52,11 @@
 @font-face {
     font-family: 'MENTONE-SEMIBOL';
     
-	src: url('../fonts/MENTONE-SEMIBOL.eot');
-    src: url('../fonts/MENTONE-SEMIBOL.eot?#iefix') format('embedded-opentype'),
+	src: url('../fonts/MENTONE.eot');
+    src: url('../fonts/MENTONE.eot?#iefix') format('embedded-opentype'),
          /*url('../fonts/Raleway-Black.woff') format('woff'),*/
-         url('../fonts/MENTONE-SEMIBOL.otf') format('truetype'),
-         url('../fonts/MENTONE-SEMIBOL.svg') format('svg');
+         url('../fonts/MENTONE.otf') format('truetype'),
+         url('../fonts/MENTONE.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -221,7 +221,7 @@ a.btn.btn-close {    position: absolute;    bottom: -1.7rem;    left: 44%;    ba
   }
 
 section .title{ font-family: 'HARABARA'; font-size: 3rem; margin: 0 }
-section .description{ font-family: 'MENTONE-SEMIBOL'; font-size: .9rem; }
+section .description{ font-family: 'MENTONE-SEMIBOL', Arial, Helvetica, sans-serif; font-size: .9rem;font-weight: bold; }
 @media( max-width: 768px){
     section .title { font-size: 2rem; }
 }
@@ -295,7 +295,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL'; font-size: .9rem; }
 /*******************************************************/
 #section_1 {
     margin-top: 4rem;
-    height: 93vh;
+    height: 48rem;
     /*background-image: url('../img/intro_perro.png');
     background-repeat: no-repeat;
     background-size: 40rem;
@@ -313,7 +313,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL'; font-size: .9rem; }
 #section_1 img.dog {
     width: 28rem;
     position: relative;
-    top: 3rem;
+    top: 4.2rem;
     left: -5rem;
     z-index: 1040   ;
 }
@@ -649,11 +649,11 @@ width: 110%;}
 #section_5 ul li img{    transform: scale(.7);}
 #section_5 .downloads {
     background: url('../img/icons_downloads_green.png') no-repeat;
-    padding: 10px 15px;
+    padding: 9px 10px 13px 17px;
          background-size: 65px;}
-#section_5 .downloads.pdf { background-position:0 -36px; margin-right: 5px; }
-#section_5 .downloads.pdf:hover { background-position: -1px -2px }
-#section_5 .downloads.video { background-position: -31px -35px;    padding: .7rem 1.4rem;    margin: 0;}
+#section_5 .downloads.pdf { background-position:0 -38px; margin-left: 5px; }
+#section_5 .downloads.pdf:hover { background-position: -1px 0px}
+#section_5 .downloads.video { background-position: -31px -38px;    padding-right: 20px;}
 #section_5 .downloads.video:hover { background-position:  -31px 0px;  }
 
 @media( max-width: 768px){
@@ -695,7 +695,7 @@ width: 110%;}
 }
 #section_6 .downloads {
     background: url('../img/icons_downloads_green_v2.png') no-repeat; }
-#section_6 .downloads.pdf {     background-position: 0 -38px;    padding: 10px 15px 17px 11px; -moz-margin-end: 5px;}
+#section_6 .downloads.pdf {     background-position: 0 -38px;    padding: 10px 15px 16px 11px; -moz-margin-end: 5px;}
 #section_6 .downloads.pdf:hover { background-position: 0 2px }
 #section_6 .downloads.video {        background-position: -1.9rem -2.2rem;    padding: 12px 10px 13px 26px;    margin: 0;}
 #section_6 .downloads.video:hover {     background-position: -30px 5px;  }
@@ -726,8 +726,8 @@ width: 110%;}
 #section_7 .box .item { text-align: center; margin-left: -4rem;}
 #section_7 .box .item:first-child { padding: 0; }
 #section_7 .box .item img{ width: 11rem; }
-#section_7 ul { font-family: 'MENTONE-SEMIBOL'; font-size: .8rem;position: relative;    top: 6rem; transform: scale(.8);}
-#section_7 ul li {    line-height: 1rem;    padding: .3rem 0;    }
+#section_7 ul { font-family: 'MENTONE-SEMIBOL'; font-size: .8rem;position: relative;    top: 6rem; }
+#section_7 ul li {    line-height: 1rem;    padding: .3rem 0;  transform: scale(.8);  }
 #section_7 ul li:last-child{ position: relative; z-index: 1040;padding-left: 12px; }
 #section_7 ul li .icon {     width: 18%;    display: inline-block;    text-align: center; }
 #section_7 ul li .text {    display: inline-flex;    width: 75%; }
@@ -839,7 +839,7 @@ width: 110%;}
 /*******************************************************/
 /*                      SECTION 9                      */
 /*******************************************************/
-#section_9 { padding-top: 10rem;    padding-bottom: 4rem; } 
+#section_9 { padding-top: 12rem;    padding-bottom: 10rem; } 
 #section_9 .frascos { text-align: center }
 #section_9 .frascos img{ max-width: 8rem;  margin-left: -2.5rem; transition: ease all .2s; cursor: pointer;}
 #section_9 .frascos img:hover {transform: scale(1.1);} 
