@@ -295,7 +295,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL', Arial, Helvetica, sans-ser
 /*******************************************************/
 #section_1 {
     margin-top: 4rem;
-    height: 48rem;
+    height: 60rem;
     /*background-image: url('../img/intro_perro.png');
     background-repeat: no-repeat;
     background-size: 40rem;
@@ -311,7 +311,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL', Arial, Helvetica, sans-ser
     z-index: 99;
 }
 #section_1 img.dog {
-    width: 34rem;
+    width: 38rem;
     position: relative;
     top: 1.2rem;
     left: -5rem;
@@ -350,6 +350,10 @@ section .description{ font-family: 'MENTONE-SEMIBOL', Arial, Helvetica, sans-ser
     #section_1 .hueso.n8 { width: 20%;        top: 5rem; }
     #section_1 .hueso.n9 {     right: -1rem; }
     #section_1 .hueso.n10 { right: -3rem; } 
+}
+@media( max-width: 1600px  ){
+    #section_1 { height: 48rem; }
+    #section_1 img.dog {        width: 34rem; }
 }
 
 /*******************************************************/
