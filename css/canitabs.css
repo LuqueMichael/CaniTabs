@@ -311,9 +311,9 @@ section .description{ font-family: 'MENTONE-SEMIBOL', Arial, Helvetica, sans-ser
     z-index: 99;
 }
 #section_1 img.dog {
-    width: 28rem;
+    width: 34rem;
     position: relative;
-    top: 4.2rem;
+    top: 1.2rem;
     left: -5rem;
     z-index: 1040   ;
 }
