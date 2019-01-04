@@ -246,10 +246,14 @@ section .description{ font-family: 'MENTONE-SEMIBOL', Arial, Helvetica, sans-ser
 #navbar-principal .nav-item a.nav-link.active{
     color: #006699;
 }
+#navbar-principal .social-item {
+    margin-left: 1rem;
+}
 #navbar-principal .social-item a img{
     width: 2.3rem;
     margin-right: 7px;
 }
+
 /***    productos hover list in navbar-principal    ***/
 #products-list-navbar {
     position: fixed;
@@ -477,7 +481,7 @@ section .description{ font-family: 'MENTONE-SEMIBOL', Arial, Helvetica, sans-ser
     /* float: left; */
     width: 57%;
     position: absolute;}
-#section_3 .item h6 {    font-size: .7rem;    width: 100%;margin-left: 1.5rem;}
+#section_3 .item h6 {    font-size: .7rem;    width: 100%;margin-left: 2.1rem;font-family: 'MENTONE-SEMIBOL';}
 #section_3 .box .item:last-child {
     left: 9.5rem;
 }
@@ -849,7 +853,8 @@ width: 110%;}
 #section_9 .frascos img:hover {transform: scale(1.1);} 
 #section_9 .frascos img:nth-child(even){ margin-top: -1rem;}
 #section_9 .tags {
-    margin-bottom: 7.5rem;
+    margin-top: 2rem;
+    margin-bottom: 9.5rem;
     margin-left: 6rem;
 }
 #section_9 .tags .tag{
