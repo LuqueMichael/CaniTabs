@@ -21,14 +21,20 @@ $(function () {
             $(divId).slideDown();
         }
 
-        console.log(divId);
     });
 
     //SMOOOTH SCROLL
     $('.test, .nav-link, .navbar-brand, .new-button').click(function () {
-        var sectionTo = $(this).attr('href');
-        $('html, body').animate({
-            scrollTop: $(sectionTo).offset().top
+        let sectionTo = $(this).attr('href');
+        let position = $(sectionTo).offset().top;
+        if(sectionTo == '#section_2_more'){
+            position -= 200;
+        }else if(sectionTo == '#section_4_more'){
+            position -= 400;
+        }
+        
+        $('html, body').animate({            
+            scrollTop: position
         }, 1500);
     });
 
