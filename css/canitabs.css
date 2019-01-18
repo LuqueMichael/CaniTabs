@@ -411,4 +411,5 @@ section .title{font-size:2rem}
 @media(max-width: 768px){
 .floating-buttons .btn.btn-buy{bottom: 0;transform: scale(.8);right: auto;top: auto;}
 .floating-buttons .btn.btn-chat{bottom: 0;transform: scale(.9);top: auto;left: 10rem;margin-bottom: 4px; }
+.footer .col-12{padding-bottom: 2rem;padding-left: 1.5rem;}
 }
