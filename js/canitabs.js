@@ -54,6 +54,11 @@ $(function () {
         }, '300');
     });
 
+    //HIDE SUBMENU PRODUCTS
+    $(".navbar-toggler").on('click',function(){
+        $('#products-list-navbar').slideUp();
+    });
+
     //SHOW MORE SLIDES
     $('.show-more-items').on('click',function(e){
         e.preventDefault();
