@@ -1,11 +1,4 @@
-$(function () {    
-    $('#navbar-principal').find('.nav-link.product-list').on('click',function(){
-        if($('#products-list-navbar').is(':visible')){
-            $('#products-list-navbar').slideUp()
-        }else{
-            $('#products-list-navbar').slideDown()
-        }
-    });
+$(function () {  
     $('.hideMenu').on('click',function(){
         $('#navbarSupportedContent').collapse('hide');$('#products-list-navbar').slideUp();
     });
@@ -66,10 +59,12 @@ $(function () {
         }, '300');
     });
 
-    //HIDE SUBMENU PRODUCTS
-    $(".navbar-toggler").on('click', function () {
-        $('#products-list-navbar').slideUp();
-    });
+    //HIDE SUBMENU PRODUCTS ONLY MONITOR LG
+    if(!isMobile.matches){
+        $(".navbar-toggler").on('click', function () {
+            $('#products-list-navbar').slideUp();
+        });
+    }
 
     //SHOW MORE SLIDES
     $('.show-more-items').on('click', function (e) {
@@ -118,8 +113,10 @@ $(function () {
     });
     
     //CHANGE POSITION SUBMENU PRODUCTS ONLY MOBIL
-    if(isMobile.matches){
+    if(isMobile.matches){        
         $('#products-list-navbar').appendTo($('#navbar-principal').find('ul li').first());
+        //SHOW SUBMENU PRODUCTS
+        $('#products-list-navbar').css({display: 'block'});
     }
 
     //
