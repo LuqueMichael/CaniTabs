@@ -113,8 +113,8 @@ section .title{font-size:2rem}
 }
 @media( max-width: 768px ) {
 #section_1{background-size:20rem;background-position:bottom}
-#section_1 .box_one{top:3rem;text-align:center;background:transparent;box-shadow:none}
-#section_1 .title{font-size:2.5rem ;line-height: 2rem;}
+#section_1 .box_one{top:2rem;text-align:center;background:transparent;box-shadow:none}
+#section_1 .title{font-size:2rem ;line-height: 2rem;}
 #section_1 .sub_title{font-size:1.4rem}
 #section_1 .description{font-size:.8rem;text-align: center;margin: auto}
 #section_1 .hueso.n3{width:20%;left:-3rem}
