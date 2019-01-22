@@ -6,7 +6,7 @@
 @font-face{font-family:'HelveticaLTStd-Roman';src:url(../fonts/HelveticaLTStd-Roman.eot);src:url(../fonts/HelveticaLTStd-Roman.eot?#iefix) format("embedded-opentype"),url(../fonts/HelveticaLTStd-Roman.woff) format("woff"),url(../fonts/HelveticaLTStd-Roman.otf) format("truetype"),url(../fonts/HelveticaLTStd-Roman.svg) format("svg");font-weight:400;font-style:normal}
 @font-face{font-family:'MADE-GoodTime-Grotesk';src:url(../fonts/MADE-GoodTime-Grotesk.eot);src:url(../fonts/MADE-GoodTime-Grotesk.eot?#iefix) format("embedded-opentype"),url(../fonts/MADE-GoodTime-Grotesk.woff) format("woff"),url(../fonts/MADE-GoodTime-Grotesk.otf) format("truetype"),url(../fonts/MADE-GoodTime-Grotesk.svg) format("svg");font-weight:400;font-style:normal}
 body{overflow-x:hidden}
-html{height:100%}
+html{max-height:100%;max-width:100%}
 a:hover{text-decoration:none}
 ul{list-style:none;padding:0;margin:0}
 section{width:100%}
@@ -78,6 +78,11 @@ section .title{font-size:2rem}
 #products-list-navbar .nav-link{padding:0!important}
 @media(max-width: 768px) {
 #products-list-navbar > .card.card-body{max-height:initial;padding:1rem}
+#products-list-navbar{ position: initial; margin-left: -16px; width: 110%; box-shadow: inset 0px 3px 5px #18b5c1;}
+#navbar-principal .nav-item a.nav-link {margin-left: 0;}
+#navbar-principal li.nav-item {border-bottom: 2px dashed #3382a9;}
+#navbar-principal li.nav-item:nth-child(4) {border-bottom: 0;}
+#navbar-principal button.navbar-toggler{ position: absolute; left: 18.5rem;top: .8rem; }
 #navbar-principal .navbar-nav{text-align:center}
 }
 #section_1{margin-top:4rem;height:60rem;overflow:hidden}
